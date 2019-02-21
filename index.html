@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+  </head>
+  <body>
+		<div class="container">
+			<div class="row">
+			<!-- COLUMNA 1: logo UPNA -->
+				<div class="col-sm">
+					<div class="media">
+						<div class="media-left">
+							<img src="UPNA.png" class="media-object" style="width:180px" alt="Responsive image">
+						</div>	
+					</div>
+				</div>
+			<!-- FIN COLUMNA 1 -->
+			
+			<!-- COLUMNA 2: Selector de idioma -->
+				<div class="col-sm">
+					<!-- Selector de idioma -->
+					<select class="selectpicker" data-width="fit">
+						<option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+						<option  data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
+						<option  data-content='<span class="flag-icon flag-icon-mx"></span> Euskara'>Euskara</option>
+						<option  data-content='<span class="flag-icon flag-icon-mx"></span> Deutsch'>Deutsch</option>
+					</select>
+				</div>
+					 <!-- FIN COLUMNA 2-->
+					 <nav class="navbar navbar-light bg-light">
+						<form class="form-inline">
+							<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+							<button class="btn btn-outline-success my-2 my-sm-0" data-toggle="tooltip" type="submit" title="Servicio no disponible">Buscar</button>
+						</form>
+					</nav>
+					<!--TOAST-->
+					<div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+						<div class="toast-header">
+							<img src="welcome.png" class="rounded mr-2" alt="Responsive image"">
+								<strong class="mr-auto"></strong>
+									<!-- <small></small> -->
+										<button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+						</div>
+				<div class="toast-body">
+					Bienvenido a UPNA!
+				</div>
+				</div>
+				<!-- end TOAST-->
+					 
+			</div>
+			
+		<div class="row">
+			 <div class="col-sm-4">
+				<div class="dropdown">
+					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Estudios
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item" href="#">Grado</a>
+						<a class="dropdown-item" href="#">Máster</a>
+						<a class="dropdown-item" href="#">Formación continua</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="dropdown">
+					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Investigacion
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item" href="#">Grupos de investigación</a>
+						<a class="dropdown-item" href="#">Institutos de investigación</a>
+						<a class="dropdown-item" href="#">I+D</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="dropdown">
+					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Servicios
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item" href="#">Empleo y prácticas</a>
+						<a class="dropdown-item" href="#">Deporte</a>
+						<a class="dropdown-item" href="#">Cultura</a>
+					</div>
+				</div>
+			</div>
+	
+		</div>
+		<!-- carousel -->
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src=aula.jpg class="d-block w-100" alt="Responsive image">
+						</div>
+				<div class="carousel-item">
+					<img src=sario.jpg class="d-block w-100" alt="Responsive image">
+				</div>
+					<div class="carousel-item">
+						<img src=gente.jpg class="d-block w-100" alt="Responsive image">
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<!-- Texto + imagen -->
+		<div class="row">
+		 <div class="col-sm-8">
+			<!-- <div class="media"> -->
+				<img src="teatro2.jpg" class="img-fluid" alt="Responsive image" style="width:750px">
+					<!-- <div class="media-body"> -->
+		</div>
+		 <div class="col-sm-4">
+				<h5 class="mt-0" align="left">Fechas funciones:</h5>
+				<div class="progress">
+				<!--<div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>-->
+				<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 62.5%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+				<div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 37.5%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<button class="btn btn-info" data-toggle="popover" ata-placement="left" data-content="Servidor no disponible, inténtelo más tarde">Comprar</button>
+				<!-- <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="left" data-content="Compre su entrada antes de que se agoten"> -->
+				<!-- Comprar
+				</button> -->
+					<br>11 de febrero, 10:00 (Completo)
+					<br>11 de febrero, 11:30 (Completo)
+					<br>3 de abril, 10:00
+					<br>3 de abril, 11:30 (Completo)
+					<br>6 de mayo, 10:00
+					<br>6 de mayo, 11:30
+					<br>22 de mayo, 10:00
+					<br>22 de mayo, 11:00
+			</div>
+
+					<!-- </div> -->
+			<!-- </div> -->
+		
+		</div>
+
+<div class="row">
+		<div class="col-sm-6">
+			<div class="media">
+				<div class="media-left">
+						<h4>Localización:</h4>
+						<img src="localizacion.png" class="img-fluid" style="width:500px" alt="Responsive image">
+				</div>	
+			</div>
+		</div>
+			<div class="col-sm-6">
+				<form>
+					<!--<div class="form-group">-->
+						<p><h5>Introduzca sus datos:</h5></p>
+				
+						<label for="exampleInputEmail1">Direccion de Email</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Introduzca su email">
+						<small id="emailHelp" class="form-text text-muted">Sus datos son confidenciales</small>
+					<!-- </div> -->
+			<!--<div class="form-group">-->
+						<label for="exampleInputPassword1">Contraseña</label>
+						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+			<!-- </div> -->
+						<button type="submit" class="btn btn-primary" data-toggle="tooltip" title="Servidor no disponible">Enviar</button>
+				</form>
+		</div>
+</div>
+
+	<!--Acordeon-->
+<div class="row">
+<div class="col-sm-8">
+	<div class="accordion" id="accordionExample">
+		<div class="card">
+			<div class="card-header" id="headingOne">
+				<h5 class="mb-0">
+					<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						Ven a conocernos
+					</button>
+				</h5>
+			</div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+	  <!-- miga de pan con 3 opciones -->
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item active" aria-current="page">Jornada puertas abiertas</li>
+			</ol>
+		</nav>
+
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="#">Jornada puertas abiertas</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Visitas para el público en general</li>
+			</ol>
+		</nav>
+
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="#">Jornada puertas abiertas</a></li>
+			<li class="breadcrumb-item"><a href="#">Visitas para el público en general</a></li>
+			<li class="breadcrumb-item active" aria-current="page">Actividades para alumnos de secundaria</li>
+			</ol>
+		</nav>
+			<div class="media">
+				<div class="media-left">
+					<img src="puertasabiertas.jpg" class="media-object" style="width:280px" alt="Responsive image">
+					<img src="pa2.jpg" class="media-object" style="width:310px" alt="Responsive image">
+					<button type="button" class="btn btn-outline-danger btn-block" data-toggle="modal" data-target="#exampleModalLong">Más información</button>
+					<!-- Button trigger modal -->
+					<!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+					Más información
+					</button>-->
+
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLongTitle">Jornadas de puertas abiertas</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+								</div>
+								<div class="modal-body">
+									<b>Sitio web:</b> www.unavarra.es
+									<br><b>Correo electrónico para consultas:</b> oficina.informacion@unavarra.es
+									<h5><br>Pamplona:</h5> Oficina de Atención Universitaria (Biblioteca)
+									<b><br>Teléfono:</b> 948 16 90 96
+									<h5><br>Tudela: </h5>Oficina de Información (Campus: Avda. Tarazona, s/n)
+									<b><br>Teléfono:</b> 948 41 78 00
+								</div>
+								<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+								<!--<button type="button" class="btn btn-primary">Save changes</button>-->
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	  <!-- -->
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         Acceso y matrícula
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        <!-- miga de pan con 3 opciones -->
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item active" aria-current="page">Grados</li>
+			</ol>
+		</nav>
+
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+				<li class="breadcrumb-item"><a href="#">Grados</a></li>
+				<li class="breadcrumb-item active" aria-current="page">Cursos de adaptación a grado</li>
+			</ol>
+		</nav>
+
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb">
+			<li class="breadcrumb-item"><a href="#">Grados</a></li>
+			<li class="breadcrumb-item"><a href="#">Cursos de adaptación a grado</a></li>
+			<li class="breadcrumb-item active" aria-current="page">1er y 2º ciclo</li>
+			</ol>
+		</nav>
+	  <!-- -->
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Notas de corte
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <!--Tabla con las notas de corte -->
+			<table class="table table-striped">
+				<thead>
+					<tr>
+					  <th scope="col">F. CIENCIAS HUMANAS Y SOCIALES</th>
+					  <th scope="col">Cupo general</th>
+					  <th scope="col">Titulados universitarios</th>
+					  <th scope="col">Mayores de 25</th>
+					</tr>
+				</thead>
+			<tbody>
+				<tr>
+				  <th scope="row">Maestro en Educación Infantil</th>
+				  <td>7,360</td>
+				  <td>7,17</td>
+				  <td>7,18</td>
+				</tr>
+			<tr>
+			  <th scope="row">Maestro en Educación Primaria</th>
+				  <td>7,310</td>
+				  <td>7,35</td>
+				  <td>5,38</td>
+			</tr>
+			<tr>
+			  <th scope="row">Sociología Aplicada</th>
+			  <td>7,084</td>
+			  <td>7,17</td>
+			  <td>5,99</td>
+			</tr>
+			<tr>
+			  <th scope="row">Trabajo social</th>
+			  <td>5,920</td>
+			  <td>6,96</td>
+			  <td>8,50</td>
+			</tr>
+			
+		</tbody>
+</table>
+
+		<!-- -->
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="col-sm-4">
+	<div class="media-left">
+		<img src="columna.png" class="img-fluid" style="width:150px" alt="Responsive image">				
+	</div>
+
+</div>
+</div>
+	<!-- -->
+		<div class="row">
+		<div class="col-sm-12">
+		<!-- 4 bloques responsivos -->
+		<div class="media">
+				<div class="media-left">
+						<!-- <p><h5>Patrocina</h4></p>-->
+						<img src="patrocina1.png" class="img-fluid" style="width:150px" alt="Responsive image">
+						
+				</div>
+				<div class="media-left">
+					<img src="patrocina2.png" class="img-fluid" style="width:150px" alt="Responsive image">
+				</div>
+				<div class="media-left">
+					<img src="patrocina3.png" class="img-fluid" style="width:150px" alt="Responsive image">
+				</div>
+				<div class="media-left">
+					<img src="patrocina4.png" class="img-fluid" style="width:150px" alt="Responsive image">
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1">
+			<div class="media-left">
+				<img src="fb.png" class="img-fluid" style="width:100px" alt="Responsive image">
+			</div>
+		</div>
+		<div class="col-sm-1">
+			<div class="media-left">
+					<img src="twitter.png" class="img-fluid" style="width:100px" alt="Responsive image">
+			</div>
+		</div>
+		<div class="col-sm-1">
+			<div class="media-left">
+					<img src="linkedin.png" class="img-fluid" style="width:100px" alt="Responsive image">
+			</div>
+		</div>
+</div>
+
+	
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	<script>
+	//POPOVER
+		$(document).ready(function(){
+		$('[data-toggle="popover"]').popover(); 
+		});
+	//TOAST
+		$(document).ready(function(){
+		$('.toast').toast('show');
+		});
+	//TOOLTIPS
+	$(function () {
+	$('[data-toggle="tooltip"]').tooltip()
+	})
+	</script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
